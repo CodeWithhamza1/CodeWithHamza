@@ -1,12 +1,4 @@
-// const typedTextSpan = document.querySelector(".typed-text");
-// const cursorSpan = document.querySelector(".cursor");
 
-// const textArray = ["Mahar Hamza", "Feelancer", "Web Designer", "SEO Master", "Content Writer"];
-// const typingDelay = 200;
-// const erasingDelay = 100;
-// const newTextDelay = 1500; // Delay between current and next text
-// let textArrayIndex = 0;
-// let charIndex = 0;
 
 function type() {
   if (charIndex < textArray[textArrayIndex].length) {

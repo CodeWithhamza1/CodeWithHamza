@@ -57,6 +57,7 @@ body{
     scroll-behavior: smooth;
     scrollbar-width: thin;
     scrollbar-color: var(--skin-color) var(--bg-scroll);
+	cursor: none;
 }
 
 body::-webkit-scrollbar-track {

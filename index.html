@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <title>Code With Hamza | Frontend Development - Portfolio</title>
+    <meta name="google-site-verification" content="oZ8ERhgOVc4Oc87JKD3IE2Smy1-Q5n8lJ-NFsPeSMsA" />
     <meta name="description" content="Hire me to grow your business. I'll provide frontend, SEO, content writing and freelancing services in reasonable price and 24/7 support. You can contact me anytime you want">
     <meta name="keywords" content="webcheaping, codewithhamza, code with hamza, portfolio, animated website">
     <meta name="author" content="Mahar Hamza">
     <meta name="robots" content="index, follow">
-    <meta name="google-site-verification" content="oZ8ERhgOVc4Oc87JKD3IE2Smy1-Q5n8lJ-NFsPeSMsA" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <!-- font awesome -->
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
@@ -16,12 +16,7 @@
     <!-- default color css  -->
     <link rel="stylesheet" href="css/skins/color-1.css" disabled>
     <link rel="stylesheet" href="css/style-switcher.css">
-    <!-- theme colors -->
-    <link rel="stylesheet" class="alternate-style" title="color-1" href="/css/skins/color-1.css">
-    <link rel="stylesheet" class="alternate-style" title="color-2" href="/css/skins/color-2.css">
-    <link rel="stylesheet" class="alternate-style" title="color-3" href="/css/skins/color-3.css">
-    <link rel="stylesheet" class="alternate-style" title="color-4" href="/css/skins/color-4.css">
-    <link rel="stylesheet" class="alternate-style" title="color-5" href="/css/skins/color-5.css">
+  
     <!-- fav icon  -->
     <link rel="shortcut icon" href="favicon.jpg">
   </head>
@@ -40,7 +35,89 @@
       <div class="cursor__inner cursor__inner--dot"></div>
     </div>
     <!-- ========== End pre loader ========== -->
-
+    <style>
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: sans-serif;
+      }
+  
+      .container_alert {
+          transition: all .3s;
+          height: auto;
+          display: flex;
+          height: 100%;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+          text-align: justify;
+          background: linear-gradient(55deg, #70168b, #330666);
+          color: white;
+          margin: 0px auto 30px auto;
+          z-index: 100001100101918191010102939201019292910192991019;
+          padding: 0 10px;
+          font-size: 18px;
+          letter-spacing: 5px;
+      }
+  
+      .alert {
+          font-size: 18px;
+          color: #fff;
+          text-align: center;
+          -webkit-animation: glow 1s ease-in-out infinite alternate;
+          -moz-animation: glow 1s ease-in-out infinite alternate;
+          animation: glow 1s ease-in-out infinite alternate;
+      }
+  
+      @-webkit-keyframes glow {
+          from {
+              text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60073, 0 0 20px #e60073, 0 0 25px #e60073, 0 0 30px #e60073, 0 0 35px #e60073;
+          }
+  
+          to {
+              text-shadow: 0 0 10px #fff, 0 0 15px #ff4da6, 0 0 20px #ff4da6, 0 0 25px #ff4da6, 0 0 30px #ff4da6, 0 0 35px #ff4da6, 0 0 40px #ff4da6;
+          }
+      }
+  
+      .alert a {
+          color: darkorange;
+          font-size: 19px;
+          transition: all .2s;
+      }
+  
+      .alert a:hover {
+          color: red;
+      }
+  
+      .close {
+          cursor: pointer;
+          font-size: 20px;
+          font-weight: bolder;
+          padding: 16px;
+          border-width: 3px;
+          border-style: solid;
+          border-image: linear-gradient(to bottom, red, rgba(3, 236, 197, 0.993), rgb(255, 251, 0)) 1 100% 2 100%;
+          border-radius: 50%;
+      }
+  </style>
+  
+  <body>
+      <div class="container_alert" id="container_hide">
+          <div class="alert">Please Subscribe Our <a target="_blank" href="https://youtube.com/@hamzatech4860">Channel</a>
+              To Get 40% Discount !!</div>
+          <div id="hidebtn" class="close">X</div>
+      </div>
+  
+      <script>
+          const container_hide = document.getElementById("container_hide");
+          const hidebtn = document.getElementById("hidebtn");
+          hidebtn.addEventListener("click", ()=>{
+              setInterval(() => {
+                  container_hide.style.display = "none";
+              }, 120);
+          });
+      </script>
     <!-- start header  -->
     <div class="header">
       <div class="container">
@@ -135,9 +212,9 @@
             <!-- social icons -->
               <div class="social-links">
 
-                <a href="https://web.facebook.com/mahar.hamza.140193" target="_nextTab" class="outer-shadow hover-in-shadow link-card" data-tilt data-tilt-scale="1.1"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://github.com/codewithhamza1/" target="_nextTab" class="outer-shadow hover-in-shadow link-card" data-tilt data-tilt-scale="1.1"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/hamza-veer-2867ba234/" target="_nextTab" class="outer-shadow hover-in-shadow link-card" data-tilt data-tilt-scale="1.1"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/EEE-project-solution-lab-107106394047092/" target="_nextTab" class="outer-shadow hover-in-shadow link-card" data-tilt data-tilt-scale="1.1"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_nextTab" class="outer-shadow hover-in-shadow link-card" data-tilt data-tilt-scale="1.1"><i class="fab fa-github"></i></a>
+                <a href="#" target="_nextTab" class="outer-shadow hover-in-shadow link-card" data-tilt data-tilt-scale="1.1"><i class="fab fa-linkedin"></i></a>
                 <a href="https://dribbble.com/hamzaveer786/" target="_nextTab" class="outer-shadow hover-in-shadow link-card" data-tilt data-tilt-scale="1.1"><i class="fab fa-dribbble"></i></a>
               </div>
             </div>
@@ -675,7 +752,7 @@
     <!-- ========== Start style switciher start - for demo pirposs only ========== -->
     <div class="style-switcher outer-shadow">
       <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
-        <i class="fas fa-cog fa-spin"></i>
+       
       </div>
       <div class="day-night s-icon outer-shadow hover-in-shadow">
         <i class="fas fa-moon"></i>
